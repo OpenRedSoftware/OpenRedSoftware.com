@@ -33,8 +33,8 @@ weight = 5
 author = "Themefisher"
 contact_info = "1001 Brickell bay <br>Dr. Miami, <br>FL 33131"
 description = "This is meta description"
-logo = "images/logo.png"
-logo_width = "120px"
+logo = "images/logos/Open Red Software Hungarian 136 x 60.png"
+logo_width = "136px"
 preloader = true
 [params.cookies]
 enable = true
