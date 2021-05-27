@@ -7,29 +7,29 @@ sections:
 - type: heading
   label: Homepage
 - type: document
-  path: exampleSite/data/homepage.yml
+  path: openredsoftware/data/homepage.yml
   label: Homepage
 - type: heading
   label: Career
 - type: document
-  path: exampleSite/content/career.md
+  path: openredsoftware/content/career.md
   label: Career
 - type: heading
   label: All Pages
 - type: directory
-  path: exampleSite/content
+  path: openredsoftware/content
   label: Created Pages
   create: all
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: openredsoftware
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: openredsoftware/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
