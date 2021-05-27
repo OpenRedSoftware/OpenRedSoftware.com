@@ -2,7 +2,7 @@
 banner:
   enable: true
   title: Open Red Software
-  content: Providing better content worldwide. For Free. Also this is a test
+  content: Providing better content worldwide. For Free.
   image: images/hero-image/hero-slider-01.jpg
   button:
     enable: true
