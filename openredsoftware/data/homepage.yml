@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: WHAT WE DO
-    link: "#products"
+    link: "/#products"
 mission:
   enable: true
   title: Propel Advancement
