@@ -3,71 +3,78 @@ banner:
   enable: true
   title: Open Red Software
   content: Providing better content worldwide. For Free.
-  image: images/hero-image/hero-slider-01.jpg
+  image: images/hero-image/hero-slider-01.png
   button:
     enable: true
     label: WHAT WE DO
-    link: products
+    link: todo
 mission:
   enable: true
-  title: Propel Advancement
+  title: A Better Web
   section: MISSION
-  content: Introducing the world’s first Advancement Company. As we enter the dawn
-    of the digital age a significant leap must be made to propel the world into the
-    age of advancement.
+  content: "Open Red Software is the not-for-profit company the world needs more of: We create, host, and contribute to open source products out there."
   video_thumb: images/video-thumb.jpg
   video_id: ResipmZmpDU
 vision:
   enable: true
   section: VISION
   vision_item:
-  - title: People First
+  - title: Open Source
     image: images/vision/vision-01.jpg
-    content: I started with a vision of creating an atmosphere where people come first.
-      <br>Paul Sanar Founder
-  - title: Employee Culture
+    content: Closed source software dies, and so does all the effort put in. Our software lives forever.
+  - title: Proper Licenses
     image: images/vision/vision-02.jpg
-    content: I started with a vision of creating an atmosphere where people come first.
-      <br>Paul Sanar Founder
-  - title: The Omega Way
+    content: Our licenses force derived work to be open source.
+  - title: Free Forever
     image: images/vision/vision-03.jpg
-    content: I started with a vision of creating an atmosphere where people come first.
-      <br>Paul Sanar Founder
+    content: Our development relies on our sponsors alone - and we even upstream those donations.
 product:
   enable: true
   section: Products
   title: Some Of Our Best Products
-  content: See the innovation that has come through the Rio way. As an advancement
-    company, the goal is to continuously find areas to help business push forward.
-    Below you can find the first product available to help you do so.
+  content: See our projects in real time. 
   product_item:
-  - title: Ecosystem
-    image: images/product/product-03.jpg
-    content: Omega OS Version 2.0 is the world’s first and only cloud operating system.
-      See how this revolutionarys oftware can become the center of your business.
-    project_url: "#"
-  - title: Objects
-    image: images/product/product-02.jpg
-    content: Omega OS Version 2.0 is the world’s first and only cloud operating system.
-      See how this revolutionarys oftware can become the center of your business.
-    project_url: "#"
-  - title: Publisher
-    image: images/product/product-03.jpg
-    content: Omega OS Version 2.0 is the world’s first and only cloud operating system.
-      See how this revolutionarys oftware can become the center of your business.
-    project_url: "#"
+  - title: 2009scape
+    image: images/product/product-03.jpg #TODO: Picture of in-game
+    content: "2009scape is the most complete Runescape emulator, based on the content from the 2009 era.
+    <ul>
+        <li>Open Source
+        <li>AGPL License
+        <li>Developed by Open Red Software
+        <li>Founded by Open Red Software
+        <li>4+ Years Active
+    </ul>"
+    project_url: "https://2009scape.org/"
+  - title: MoneroTipsBot
+    image: images/product/product-02.jpg #TODO: Picture of tips
+    content: "MoneroTipsBot integrates the confidential cryptocurrency [Monero]() into Reddit, giving users the ability to send real monetary reward to each other
+    <ul>
+        <li>Open Source
+        <li>GPL License
+        <li>Developed by Open Red Software
+        <li>Hosted by Open Red Software
+        <li>3+ Years Active
+    </ul>"
+    project_url: "https://www.reddit.com/r/MoneroTipsBot/wiki/index"
+  - title: OurKorean
+    image: images/product/product-03.jpg #TODO: Picture of lesson
+    content: "OurKorean brings music and media into your language learning journey. With crowdsourced lessons, OurKorean helps you learn through the content you like via [spaced repetition]()
+    <ul>
+        <li>Crowdsourced
+        <li>Free Forever
+        <li>Developed by Open Red Software
+        <li>Funded & Hosted by Open Red Software
+    </ul>"
+    project_url: "https://ourkorean.com/"
 contact:
   enable: true
   section: CONTACT US
   title: reach us
   image: images/map-bg.jpg
-  content: The dawn of the digital age and the need for a significant leap forward
-    is here. We believe that every business has the opportunity to move into this
-    new age with the right mindset. Contact us today to begin understanding how Omega
-    can propel your business.
+  content: Open Red Software's products are all over social media - to reach those directly, see our [Products] landing. Below are contacts for Open Red Software directly.
 call_to_action:
-  enable: true
-  title: Join the Omega family. <br>Click below to view the career opportunities we
+  enable: false
+  title: Join Open Red Software. <br>Click below to view the career opportunities we
     have for you.
   button_label: Apply Now
   button_link: career
