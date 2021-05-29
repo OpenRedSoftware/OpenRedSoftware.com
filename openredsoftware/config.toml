@@ -1,6 +1,6 @@
 baseURL = "https://openredsoftware.netlify.app"
 googleAnalytics = ""
-theme = "omega"
+theme = "repo"
 title = "Open Red Software"
 [markup.goldmark.renderer]
 unsafe = true
