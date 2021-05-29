@@ -1,6 +1,6 @@
 ---
-title : "Career"
-layout: "career"
+title : "Products"
+layout: "product"
 description: "Do what you enjoy. We're here to make a better future for everyone, not just ourselves."
 
 
@@ -25,8 +25,4 @@ funfacts:
     icon : "fa-plug"
     content : "Open Red Software is headquartered in Canada but hires all around the world. Feel free to apply!"
     
-########### Career ############
-career:
-  enable : true
-  title : "Job Openings<br><font size=3>There are no job openings at this time.<br><br><font size=2>Check again soon!"
 ---
