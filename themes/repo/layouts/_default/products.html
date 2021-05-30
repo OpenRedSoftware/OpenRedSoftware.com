@@ -2,7 +2,7 @@
 
 {{ if .Params.productbanner.enable }}
 {{ with .Params.productbanner.enable }}
-{{ with site.Data.product.banner }}
+{{ with site.Data.products.banner }}
 <section class="hero-slider">
   <div class="container-fluid p-0 m-0">
     <div class="row m-0">
@@ -35,8 +35,8 @@
 {{ end }}
 {{ end }}
 
-{{ if site.Data.product.ours.enable }}
-{{ with site.Data.product.ours }}
+{{ if site.Data.products.ours.enable }}
+{{ with site.Data.products.ours }}
 <section class="mission" id="mission">
   <div class="bg">
     <img src="{{`images/section-bg.jpg` | absURL}}" class="img-fluid" alt="section-bg">
@@ -99,8 +99,8 @@
 {{ end }}
 {{ end }}
 
-{{ if site.Data.product.contributed.enable }}
-{{ with site.Data.product.contributed }}
+{{ if site.Data.products.contributed.enable }}
+{{ with site.Data.products.contributed }}
 <section class="mission" id="mission">
   <div class="bg">
     <img src="{{`images/section-bg.jpg` | absURL}}" class="img-fluid" alt="section-bg">

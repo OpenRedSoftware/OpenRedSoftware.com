@@ -1,0 +1,13 @@
+---
+
+members:
+  enable: true
+  member:
+    - name: Dan Ginovker
+      desc: Dan is a proud innovator and distributor of open source software
+      image: images/hero-image/hero-slider-01.png
+      linkedin: https://www.linkedin.com/in/dan-ginovker/
+    - name: Rickey Chamblee
+      desc: Rickey is a talented planner & developer of open source software 
+      image: images/hero-image/hero-slider-01.png
+      linkedin: https://www.linkedin.com/in/rickey-chamblee-b52765152/
