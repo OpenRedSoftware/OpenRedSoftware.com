@@ -11,40 +11,34 @@ ours:
     - title: 2009scape
     - project:
       - title: About
-        image: images/vision/vision-01.jpg
+        image: images/vision/vision-invis.png
         content: 2009scape is the most complete Runescape emulator, based on the content from the 2009 era.
       - title: Tech Stack
-        image: images/vision/vision-02.jpg
-        content: "Client: Java/Kotlin
-Server: Java/Kotlin
-Database: Json/SQLite"
+        image: images/vision/vision-invis.png
+        content: "Client: Java/Kotlin<br>Server: Java/Kotlin<br>Database: Json/SQLite"
       - title: Links
-        image: images/vision/vision-03.jpg
-        content: "[2009scape Website](https://2009scape.org/) 2009scape Github [2009scape Discord]"
+        image: images/vision/vision-invis.png
+        content: "[2009scape Website](https://2009scape.org/)<br>[2009scape Github](http://github.com/2009scape)<br>[2009scape Discord](https://discord.gg/43YPGND)"
     - title: MoneroTipsBot
     - project:
       - title: About
-        image: images/vision/vision-01.jpg
+        image: images/vision/vision-invis.png
         content: "MoneroTipsBot leverages the confidential cryptocurrency [Monero]() into Reddit, giving users the ability to send real monetary reward to each other
 MoneroTipsBot is part of the [Monero-Ecosystem] project"
       - title: Tech Stack
-        image: images/vision/vision-02.jpg
-        content: "Client: Reddit (PRAW API)
-Server: Python/Monero RPC"
+        image: images/vision/vision-invis.png
+        content: "Client: Reddit (PRAW API)<br>Server: Python/Monero RPC"
       - title: Links
-        image: images/vision/vision-03.jpg
-        content: "[MoneroTipsBot Github] [Monero-Ecosystem]"
+        image: images/vision/vision-invis.png
+        content: "[MoneroTipsBot Github](https://github.com/monero-ecosystem/MoneroTipper)<br>[Monero-Ecosystem](https://github.com/monero-ecosystem/)"
     - title: OurKorean
     - project:
       - title: About
-        image: images/vision/vision-01.jpg
+        image: images/vision/vision-invis.png
         content: OurKorean teaches Korean through your favorite medias
       - title: Tech Stack
-        image: images/vision/vision-02.jpg
-        content: "Web Client: React/Redux/Typescript/Bootstrap
-Mobile App: Ionic
-Server: Firebase
-Database: Firebase Realtime Database"
+        image: images/vision/vision-invis.png
+        content: "Web Client: React/Redux/Typescript/Bootstrap<br>Mobile App: Ionic<br>Server: Firebase<br>Database: Firebase Realtime Database"
       - title: Links
-        image: images/vision/vision-03.jpg
-        content: "[OurKorean Website]"
+        image: images/vision/vision-invis.png
+        content: "[OurKorean Website](https://ourkorean.com/)"
