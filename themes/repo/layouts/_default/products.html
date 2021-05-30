@@ -1,0 +1,99 @@
+{{ define "main" }}
+
+{{ if .Params.productbanner.enable }}
+{{ with .Params.productbanner.enable }}
+{{ with site.Data.product.banner }}
+<section class="hero-slider">
+  <div class="container-fluid p-0 m-0">
+    <div class="row m-0">
+      <div class="col-12 p-0 text-center">
+        <div class="hero-slider-wrapper">
+          <div class="item">
+            <div class="item-image image-reveal" style="animation-delay: 0s;">
+              <img src="{{ .image | absURL }}" alt="slider-image">
+            </div>
+            <div class="content">
+              <h2>
+                <span class="rev">
+                  Free
+                </span>
+              </h2>
+              <h3>Forever</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center">
+        <div class="scroll">
+          <h6>SCROLL</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ if site.Data.product.ours.enable }}
+{{ with site.Data.product.ours }}
+<section class="mission" id="mission">
+  <div class="bg">
+    <img src="{{`images/section-bg.jpg` | absURL}}" class="img-fluid" alt="section-bg">
+  </div>
+  <div class="right-shape">
+    <img src="{{`images/right-shape.png` | absURL}}" class="img-fluid" alt="right-shape">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <span>{{.section}}</span>
+        </div>
+        <div class="mission-content">
+          <h2><span class="rev">{{ .title | markdownify}}</span></h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="mission-content">
+        <h1><span class="rev">2009scape</span></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <span>{{ .section | markdownify }}</span>
+        </div>
+        <div class="visions">
+          {{ range .t2009scape }}
+          <div class="vision-item">
+            <div class="image image-reveal">
+              <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
+            </div>
+            <div class="text-content">
+              <h3>{{ .title | markdownify }}</h3>
+              <p>{{ .content | markdownify}}</p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}
