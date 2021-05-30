@@ -4,10 +4,10 @@ members:
   enable: true
   member:
     - name: Dan Ginovker
-      desc: Dan is a proud innovator and distributor of open source software
-      image: images/hero-image/hero-slider-01.png
+      desc: Dan is a proud innovator and distributor of open source software. He is the founder of many projects at ORS.
+      image: images/team/Dan.jpeg
       linkedin: https://www.linkedin.com/in/dan-ginovker/
     - name: Rickey Chamblee
-      desc: Rickey is a talented planner & developer of open source software 
-      image: images/hero-image/hero-slider-01.png
+      desc: Rickey is a talented planner & developer of open source software. He has been the lead developer and maintainer of 2009scape since 2020.
+      image: images/team/Rickey.jpeg
       linkedin: https://www.linkedin.com/in/rickey-chamblee-b52765152/
