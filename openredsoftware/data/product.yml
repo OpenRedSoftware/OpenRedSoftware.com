@@ -8,36 +8,43 @@ ours:
   title: Founded by ORS
   section: Founded
   founded:
-    - title: a
+    - title: 2009scape
     - project:
-      - title: Open Source
+      - title: About
         image: images/vision/vision-01.jpg
-        content: Closed source software dies, and so does all the effort put in. Our software lives forever.
-      - title: Proper Licenses
+        content: 2009scape is the most complete Runescape emulator, based on the content from the 2009 era.
+      - title: Tech Stack
         image: images/vision/vision-02.jpg
-        content: Our licenses force derived work to be open source.
-      - title: Free Forever
+        content: "Client: Java/Kotlin
+Server: Java/Kotlin
+Database: Json/SQLite"
+      - title: Links
         image: images/vision/vision-03.jpg
-        content: Our development relies on our sponsors alone - and we even upstream those donations.
-    - title: a
+        content: "[2009scape Website](https://2009scape.org/) 2009scape Github [2009scape Discord]"
+    - title: MoneroTipsBot
     - project:
-      - title: Open Source
+      - title: About
         image: images/vision/vision-01.jpg
-        content: Closed source software dies, and so does all the effort put in. Our software lives forever.
-      - title: Proper Licenses
+        content: "MoneroTipsBot leverages the confidential cryptocurrency [Monero]() into Reddit, giving users the ability to send real monetary reward to each other
+MoneroTipsBot is part of the [Monero-Ecosystem] project"
+      - title: Tech Stack
         image: images/vision/vision-02.jpg
-        content: Our licenses force derived work to be open source.
-      - title: Free Forever
+        content: "Client: Reddit (PRAW API)
+Server: Python/Monero RPC"
+      - title: Links
         image: images/vision/vision-03.jpg
-        content: Our development relies on our sponsors alone - and we even upstream those donations.
-    - title: a
+        content: "[MoneroTipsBot Github] [Monero-Ecosystem]"
+    - title: OurKorean
     - project:
-      - title: Open Source
+      - title: About
         image: images/vision/vision-01.jpg
-        content: Closed source software dies, and so does all the effort put in. Our software lives forever.
-      - title: Proper Licenses
+        content: OurKorean teaches Korean through your favorite medias
+      - title: Tech Stack
         image: images/vision/vision-02.jpg
-        content: Our licenses force derived work to be open source.
-      - title: Free Forever
+        content: "Web Client: React/Redux/Typescript/Bootstrap
+Mobile App: Ionic
+Server: Firebase
+Database: Firebase Realtime Database"
+      - title: Links
         image: images/vision/vision-03.jpg
-        content: Our development relies on our sponsors alone - and we even upstream those donations.
+        content: "[OurKorean Website]"
