@@ -59,11 +59,12 @@
   </div>
 </section>
 
+{{ range .founded }}
 <div class="container">
   <div class="row">
     <div class="col-12">
       <div class="mission-content">
-        <h1><span class="rev">2009scape</span></h1>
+        <h1><span class="rev">{{ .title | markdownify }}</span></h1>
       </div>
     </div>
   </div>
@@ -77,7 +78,7 @@
           <span>{{ .section | markdownify }}</span>
         </div>
         <div class="visions">
-          {{ range .t2009scape }}
+          {{ range .project }}
           <div class="vision-item">
             <div class="image image-reveal">
               <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
@@ -93,6 +94,8 @@
     </div>
   </div>
 </section>
+{{ end }}
+
 {{ end }}
 {{ end }}
 

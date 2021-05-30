@@ -7,33 +7,37 @@ ours:
   enable: true
   title: Founded by ORS
   section: Founded
-  t2009scape:
-    - title: Open Source
-      image: images/vision/vision-01.jpg
-      content: Closed source software dies, and so does all the effort put in. Our software lives forever.
-    - title: Proper Licenses
-      image: images/vision/vision-02.jpg
-      content: Our licenses force derived work to be open source.
-    - title: Free Forever
-      image: images/vision/vision-03.jpg
-      content: Our development relies on our sponsors alone - and we even upstream those donations.
-  MoneroTipsBot:
-    - title: Open Source
-      image: images/vision/vision-01.jpg
-      content: Closed source software dies, and so does all the effort put in. Our software lives forever.
-    - title: Proper Licenses
-      image: images/vision/vision-02.jpg
-      content: Our licenses force derived work to be open source.
-    - title: Free Forever
-      image: images/vision/vision-03.jpg
-      content: Our development relies on our sponsors alone - and we even upstream those donations.
-  OurKorean:
-    - title: Open Source
-      image: images/vision/vision-01.jpg
-      content: Closed source software dies, and so does all the effort put in. Our software lives forever.
-    - title: Proper Licenses
-      image: images/vision/vision-02.jpg
-      content: Our licenses force derived work to be open source.
-    - title: Free Forever
-      image: images/vision/vision-03.jpg
-      content: Our development relies on our sponsors alone - and we even upstream those donations.
+  founded:
+    - title: a
+    - project:
+      - title: Open Source
+        image: images/vision/vision-01.jpg
+        content: Closed source software dies, and so does all the effort put in. Our software lives forever.
+      - title: Proper Licenses
+        image: images/vision/vision-02.jpg
+        content: Our licenses force derived work to be open source.
+      - title: Free Forever
+        image: images/vision/vision-03.jpg
+        content: Our development relies on our sponsors alone - and we even upstream those donations.
+    - title: a
+    - project:
+      - title: Open Source
+        image: images/vision/vision-01.jpg
+        content: Closed source software dies, and so does all the effort put in. Our software lives forever.
+      - title: Proper Licenses
+        image: images/vision/vision-02.jpg
+        content: Our licenses force derived work to be open source.
+      - title: Free Forever
+        image: images/vision/vision-03.jpg
+        content: Our development relies on our sponsors alone - and we even upstream those donations.
+    - title: a
+    - project:
+      - title: Open Source
+        image: images/vision/vision-01.jpg
+        content: Closed source software dies, and so does all the effort put in. Our software lives forever.
+      - title: Proper Licenses
+        image: images/vision/vision-02.jpg
+        content: Our licenses force derived work to be open source.
+      - title: Free Forever
+        image: images/vision/vision-03.jpg
+        content: Our development relies on our sponsors alone - and we even upstream those donations.
