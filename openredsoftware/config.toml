@@ -10,9 +10,9 @@ pre = ""
 url = "/"
 weight = 1
 [[menu.main]]
-name = "About"
-pre = "#"
-url = "mission"
+name = "Team"
+pre = "/"
+url = "team"
 weight = 2
 [[menu.main]]
 name = "Products"

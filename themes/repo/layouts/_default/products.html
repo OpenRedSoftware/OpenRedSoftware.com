@@ -99,4 +99,68 @@
 {{ end }}
 {{ end }}
 
+{{ if site.Data.product.contributed.enable }}
+{{ with site.Data.product.contributed }}
+<section class="mission" id="mission">
+  <div class="bg">
+    <img src="{{`images/section-bg.jpg` | absURL}}" class="img-fluid" alt="section-bg">
+  </div>
+  <div class="right-shape">
+    <img src="{{`images/right-shape.png` | absURL}}" class="img-fluid" alt="right-shape">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <span>{{.section}}</span>
+        </div>
+        <div class="mission-content">
+          <h2><span class="rev">{{ .title | markdownify}}</span></h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ range .contributed }}
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="mission-content">
+        <h1><span class="rev">{{ .title | markdownify }}</span></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <span>{{ .section | markdownify }}</span>
+        </div>
+        <div class="visions">
+          {{ range .project }}
+          <div class="vision-item">
+            <div class="image image-reveal">
+              <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
+            </div>
+            <div class="text-content">
+              <h3>{{ .title | markdownify }}</h3>
+              <p>{{ .content | markdownify}}</p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
+{{ end }}
+
 {{ end }}

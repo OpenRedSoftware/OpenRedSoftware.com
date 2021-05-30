@@ -42,3 +42,41 @@ MoneroTipsBot is part of the [Monero-Ecosystem] project"
       - title: Links
         image: images/vision/vision-invis.png
         content: "[OurKorean Website](https://ourkorean.com/)"
+contributed:
+  enable: true
+  title: Contributed to by ORS
+  section: Contributed
+  contributed:
+    - title: LinuxReviews.org
+    - project:
+      - title: About
+        image: images/vision/vision-invis.png
+        content: LinuxReviews is your source of high quality information and news for all things in the Software world.
+      - title: Contributions
+        image: images/vision/vision-invis.png
+        content: OpenRedSoftware is a proud contributor to LinuxReviews.org news and content pages. You can see our previous contributions [here](https://linuxreviews.org/Special:Contributions/Danseobang)
+      - title: Links
+        image: images/vision/vision-invis.png
+        content: "[LinuxReviews.org](https://linuxreviews.org/)"
+    - title: Lutris.net
+    - project:
+      - title: About
+        image: images/vision/vision-invis.png
+        content: "Lutris is a top Linux gaming solution, with quick installers built for existing games."
+      - title: Contributions
+        image: images/vision/vision-invis.png
+        content: "OpenRedSoftware contributes a number of Lutris installers, as well as hosts our [own installers](https://github.com/Linux-BFME/Installers) for the EA Game series “The Lord of the Rings, Battle for Middle Earth”."
+      - title: Links
+        image: images/vision/vision-invis.png
+        content: "[Lutris.net](https://lutris.net/)"
+    - title: Monero
+    - project:
+      - title: About
+        image: images/vision/vision-invis.png
+        content: Monero is a confidential, private cryptocurrency
+      - title: Contributions
+        image: images/vision/vision-invis.png
+        content: "Open Red Software is a proud member of the Monero-Ecosystem project, and has contributed several dedicated projects to the community, including customer support bots, aggregators, and much more."
+      - title: Links
+        image: images/vision/vision-invis.png
+        content: "[Getmonero.org](https://www.getmonero.org/)"
