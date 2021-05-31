@@ -71,7 +71,7 @@ contact:
   section: CONTACT US
   title: reach us
   image: images/map-bg.jpg
-  content: Open Red Software's products are all over social media - to reach those directly, see our [Products] landing. Below are contacts for Open Red Software directly.
+  content: Open Red Software's products are all over social media - to reach those directly, see our [Products](/products) landing. Below are contacts for Open Red Software directly.
 call_to_action:
   enable: false
   title: Join Open Red Software. <br>Click below to view the career opportunities we
