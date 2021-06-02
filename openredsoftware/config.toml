@@ -11,13 +11,13 @@ url = "/"
 weight = 1
 [[menu.main]]
 name = "Team"
-pre = "/"
-url = "/team"
+pre = ""
+url = "team"
 weight = 2
 [[menu.main]]
 name = "Products"
-pre = "/"
-url = "/products"
+pre = ""
+url = "products"
 weight = 3
 [[menu.main]]
 name = "Career"
