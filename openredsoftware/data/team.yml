@@ -11,3 +11,7 @@ members:
       desc: Rickey is a talented planner & developer of open source software. He has been the lead developer and maintainer of 2009scape since 2020.
       image: images/team/Rickey.jpeg
       linkedin: https://www.linkedin.com/in/rickey-chamblee-b52765152/
+    - name: Alex Parent
+      desc: Alex is a self starter and entrepreneur, and the lead developer of OpenRedSoftware's fully in-house Minecraft server implementation. 
+      image: images/team/Alex.jpeg
+      linkedin: https://www.linkedin.com/in/alexander-parent-a3974613a/
