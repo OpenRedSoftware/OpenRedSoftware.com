@@ -51,7 +51,7 @@
           <span>{{.section}}</span>
         </div>
         <div class="mission-content">
-          <h2><span class="rev">{{ .title | markdownify}}</span></h2>
+          <h3><span class="rev">{{ .title | markdownify}}</span></h3> <!-- Founded by ORS -->
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>
@@ -64,7 +64,7 @@
   <div class="row">
     <div class="col-12">
       <div class="mission-content">
-        <h1><span class="rev">{{ .title | markdownify }}</span></h1>
+        <h2><span class="rev">{{ .title | markdownify }}</span></h2> <!-- 2009scape, etc -->
       </div>
     </div>
   </div>
@@ -81,7 +81,7 @@
           {{ range .project }}
           <div class="vision-item">
             <div class="image image-reveal">
-              <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
+              <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb"> <!-- Details of 2009scape, etc -->
             </div>
             <div class="text-content">
               <h3>{{ .title | markdownify }}</h3>
@@ -99,6 +99,8 @@
 {{ end }}
 {{ end }}
 
+<div style="padding-bottom:50rem"></div>
+
 {{ if site.Data.products.contributed.enable }}
 {{ with site.Data.products.contributed }}
 <section class="mission" id="mission">
@@ -115,7 +117,7 @@
           <span>{{.section}}</span>
         </div>
         <div class="mission-content">
-          <h2><span class="rev">{{ .title | markdownify}}</span></h2>
+          <h1><span class="rev">{{ .title | markdownify}}</span></h1>
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>
@@ -128,7 +130,7 @@
   <div class="row">
     <div class="col-12">
       <div class="mission-content">
-        <h1><span class="rev">{{ .title | markdownify }}</span></h1>
+        <h2><span class="rev">{{ .title | markdownify }}</span></h2>
       </div>
     </div>
   </div>
