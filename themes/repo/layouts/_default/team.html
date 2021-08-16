@@ -28,6 +28,9 @@
                 <a href="{{ .linkedin | absURL }}">LinkedIn</a>
               </div>
             </div>
+            <span style="padding-top:1rem; display: flex; justify-content: center;">
+              <h5>{{ .name | markdownify }}</h5>
+            </span>
           </div>
           {{ end }}
 
