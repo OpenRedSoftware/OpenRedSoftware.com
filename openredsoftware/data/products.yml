@@ -42,6 +42,17 @@ MoneroTipsBot is part of the [Monero-Ecosystem] project"
       - title: Links
         image: images/vision/vision-invis.png
         content: "[OurKorean Website](https://ourkorean.com/)"
+    - title: xmr-donate
+    - project:
+      - title: About
+        image: images/vision/vision-invis.png
+        content: Donate Monero to accepting projects
+      - title: Tech Stack
+        image: images/vision/vision-invis.png
+        content: "Client: VueJS"
+      - title: Links
+        image: images/vision/vision-invis.png
+        content: "[xmr-donate GitHub](https://github.com/dginovker/xmr-donate)<br>[xmr-donate Website](https://xmr-donate.web.app/)"
 contributed:
   enable: true
   title: Contributed to by ORS
@@ -80,3 +91,15 @@ contributed:
       - title: Links
         image: images/vision/vision-invis.png
         content: "[Getmonero.org](https://www.getmonero.org/)"
+    - title: Arch Linux User Repository
+    - project:
+      - title: About
+        image: images/vision/vision-invis.png
+        content: "The Arch User Repository (AUR) provides user-made Arch Linux packages"
+      - title: Contributions
+        image: images/vision/vision-invis.png
+        content: "OpenRedSoftware maintains a [small number](https://aur.archlinux.org/packages/?K=Dr-Bracket&SeB=m) of AUR packages"
+      - title: Links
+        image: images/vision/vision-invis.png
+        content: "[AUR Landing Page](https://aur.archlinux.org/)"
+
