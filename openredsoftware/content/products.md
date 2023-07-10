@@ -1,7 +1,7 @@
 ---
 title : "Products"
 layout: "products"
-description: "Open Red Software creates and contributes. Check out some of our work below."
+description: "Proudly served 15+ clients, from startups to 5,000+ employee organizations. Our Open Source clients and contributions are listed below."
 
 
 productbanner:

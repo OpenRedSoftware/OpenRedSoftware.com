@@ -5,7 +5,7 @@ banner:
 
 ours:
   enable: true
-  title: Founded by ORS
+  title: Founded at ORS
   section: Founded
   founded:
     - title: 2009scape
