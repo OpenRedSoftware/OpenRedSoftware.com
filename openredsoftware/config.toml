@@ -48,10 +48,6 @@ map_marker = "images/map-marker.png"
 map_position_lat = "43.5433919"
 map_position_lng = "-80.2381427"
 [[params.social]]
-icon = "fa-github"
-link = "https://github.com/openredsoftware"
-title = "github"
-[[params.social]]
 icon = "fa-inbox"
 link = "mailto:dginovker@openredsoftware.com"
 title = "github"

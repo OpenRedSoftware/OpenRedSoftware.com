@@ -6,13 +6,13 @@ banner:
   image: images/hero-image/hero-slider-01.png
   button:
     enable: true
-    label: WHAT WE DO
-    link: products
+    label: CONTACT
+    absURL: openredsoftware.com/contact
 mission:
   enable: true
   title: A Better Web
   section: MISSION
-  content: "Open Red Software is the not-for-profit company the world needs more of: We create, host, and contribute to open source products out there."
+  content: "Open Red Software uses all funds to contribute to open source projects for a better web."
   video_thumb: images/video-thumb.jpg
   video_id: ResipmZmpDU
 vision:
@@ -27,7 +27,7 @@ vision:
     content: Our licenses force derived work to be open source.
   - title: Free Forever
     image: images/vision/vision-03.jpg
-    content: Our development relies on our sponsors alone - and we even upstream those donations.
+    content: Our development relies on our contract work alone - we even upstream donations.
 product:
   enable: true
   section: Products
@@ -56,22 +56,21 @@ product:
         <li>3+ Years Active
     </ul>"
     project_url: "https://www.reddit.com/r/MoneroTipsBot/wiki/index"
-  - title: OurKorean
+  - title: PineappleResume
     image: images/product/product-03.jpg #TODO: Picture of lesson
-    content: "OurKorean brings music and media into your language learning journey. With crowdsourced lessons, OurKorean helps you learn through the content you like via [spaced repetition]()
+    content: "Ex-FAANG recruiter resume review system
     <ul>
-        <li>Crowdsourced
-        <li>Free Forever
+        <li>Proprietary
         <li>Developed by Open Red Software
-        <li>Funded & Hosted by Open Red Software
+        <li>React/NodeJS/Google Cloud Platform stack with OAuth, Stripe integration, analytics and more
     </ul>"
-    project_url: "https://ourkorean.com/"
+    project_url: "https://pineappleresume.com/"
 contact:
   enable: true
   section: CONTACT US
   title: reach us
   image: images/map-bg.jpg
-  content: Open Red Software's products are all over social media - to reach those directly, see our [Products](/products) landing. Below are contacts for Open Red Software directly.
+  content: Please email dginovker [at] openredsoftware.com for all inquiries.
 call_to_action:
   enable: false
   title: Join Open Red Software. <br>Click below to view the career opportunities we
