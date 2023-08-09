@@ -19,3 +19,7 @@ members:
       desc: Rick is a talented planner & developer of open source software. He has been the lead developer and maintainer of 2009scape since 2020.
       image: images/team/Rick.jpg
       linkedin: https://www.linkedin.com/in/rickey-chamblee-b52765152/
+    - name: Jesse Guerrero
+      desc: Jesse is a long term employee of ORS. He's lead development on open-source and proprietary solutions, including game engines, content, APIs, and front-end services.
+      image: images/team/Jesse.jpeg
+      linkedin: https://www.linkedin.com/in/jguer/
