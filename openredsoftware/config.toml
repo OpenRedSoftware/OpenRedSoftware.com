@@ -29,6 +29,10 @@ name = "Contact"
 pre = "#"
 url = "contact"
 weight = 5
+[[menu.main]]
+name = "Blog"
+url = "blog"
+weight = 6
 [params]
 author = "Themefisher"
 contact_info = "312 Statewood Drive<br>Ottawa, ON<br>K2K 0A9"

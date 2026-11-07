@@ -1,0 +1,24 @@
+.blog-post {
+  max-width: 860px;
+  color: #fff;
+  font: 18px/1.65 Arial, sans-serif;
+  overflow-wrap: anywhere;
+}
+.blog-post p {
+  font: inherit;
+  letter-spacing: normal;
+}
+.blog-post h2, .blog-post h3 { margin: 2rem 0 1rem; }
+.blog-post a { color: #9ddaff; text-decoration: underline; }
+.blog-post li { margin-bottom: .75rem; }
+.blog-post ul { padding-left: 1.5rem; list-style: disc; }
+.blog-post pre {
+  padding: 1rem;
+  color: #f8f8f2;
+  background: #272822;
+  overflow-x: auto;
+  tab-size: 4;
+}
+.blog-post pre code { white-space: pre; overflow-wrap: normal; }
+.blog-post blockquote { padding-left: 1rem; border-left: 3px solid #9ddaff; }
+.blog-post .blog-byline { font-size: 16px; }

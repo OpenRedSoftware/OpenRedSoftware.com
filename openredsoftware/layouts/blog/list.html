@@ -1,0 +1,11 @@
+{{ define "main" }}
+<link rel="stylesheet" href="{{ `css/blog.css` | relURL }}">
+<section class="section">
+  <div class="container blog-post">
+    {{ range .RegularPages.ByDate.Reverse }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Description }}</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

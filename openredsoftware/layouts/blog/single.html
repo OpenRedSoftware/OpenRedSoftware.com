@@ -1,0 +1,9 @@
+{{ define "main" }}
+<link rel="stylesheet" href="{{ `css/blog.css` | relURL }}">
+<section class="section">
+  <article class="container blog-post">
+    <p class="blog-byline">By {{ .Params.author }} · <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+    {{ .Content }}
+  </article>
+</section>
+{{ end }}

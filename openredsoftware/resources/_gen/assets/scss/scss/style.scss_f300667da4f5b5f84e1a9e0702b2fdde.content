@@ -9164,8 +9164,7 @@ li.fancybox-thumbs-loading {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
+.sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
   width: auto;
   height: auto;
@@ -9504,6 +9503,7 @@ body {
     @media (max-width: 991px) {
       #main-nav .navbar-nav .hamburger-icon {
         display: none; } }
+
 .hero-slider-wrapper {
   position: relative;
   z-index: 5; }
@@ -9695,6 +9695,7 @@ body {
       @media (max-width: 991px) {
         .mission .section-title:before {
           content: none; } }
+
 .mission-content {
   margin-left: 130px;
   position: relative;
@@ -9780,6 +9781,7 @@ body {
       @media (max-width: 1200px) {
         .mission-content .video iframe {
           min-height: 350px; } }
+
 .vision {
   padding: 180px 0 100px 0;
   overflow: hidden; }
@@ -9816,6 +9818,7 @@ body {
       @media (max-width: 991px) {
         .vision .section-title:before {
           content: none; } }
+
 .visions {
   position: relative;
   z-index: 6; }
@@ -9905,12 +9908,14 @@ body {
   @media (max-width: 767px) {
     .vision-slider-wrapper .slick-next {
       bottom: 0; } }
+
 .vision-slider-wrapper .slick-prev {
   right: 7.5%;
   bottom: 3.5%; }
   @media (max-width: 767px) {
     .vision-slider-wrapper .slick-prev {
       bottom: 0; } }
+
 .products {
   padding: 100px 0;
   position: relative; }
@@ -10005,6 +10010,7 @@ body {
           font-size: 16px;
           line-height: 25px;
           max-width: 100%; } }
+
 .product-slider-wrapper {
   padding-top: 175px;
   padding-bottom: 135px;
@@ -10053,7 +10059,7 @@ body {
             .product-slider-wrapper .product-item .overlay .content h5 {
               font-size: 25px; } }
         .product-slider-wrapper .product-item .overlay .content p {
-          color: #383838;
+          color: #383737;
           font-size: 16px;
           line-height: 24px;
           letter-spacing: 1px; }
@@ -10180,6 +10186,7 @@ body {
           font-size: 16px;
           line-height: 25px;
           max-width: 100%; } }
+
 .map-div {
   position: relative; }
   .map-div #map {
@@ -10281,6 +10288,7 @@ ul.social-list li a {
       .career-featured .block .video {
         flex-grow: 1;
         width: 100%; } }
+
 .company-fun-facts h2 {
   font-size: 60px;
   margin-bottom: 60px;
@@ -10291,6 +10299,7 @@ ul.social-list li a {
   @media (max-width: 767px) {
     .company-fun-facts h2 {
       font-size: 30px; } }
+
 .company-fun-facts .fun-fact {
   margin-bottom: 20px;
   text-align: center; }
@@ -10347,6 +10356,7 @@ ul.social-list li a {
           width: 100%;
           flex-grow: 1;
           text-align: center; } }
+
 .jd-modal .close {
   color: #fff;
   text-shadow: none;
