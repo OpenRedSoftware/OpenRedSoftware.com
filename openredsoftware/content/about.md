@@ -15,7 +15,7 @@ Open Red Software is a software company headquartered in Canada. We start and co
 ## Projects we founded
 
 - **2009scape** is a free and open source remake of 2009-era RuneScape, licensed under the AGPL-3.0. Website: https://2009scape.org/ . Source: https://gitlab.com/2009scape/2009scape
-- **MoneroTipsBot** lets Reddit users tip each other in Monero. It is GPL-3.0 licensed and part of the Monero Ecosystem project. Source: https://github.com/monero-ecosystem/MoneroTipper
+- **MoneroTipsBot** lets Reddit users tip each other in Monero. It is GPL-3.0 licensed. Source: https://github.com/dginovker/MoneroTipper
 - **OurKorean** teaches Korean through the media you already like: https://ourkorean.com/
 - **xmr-donate** helps you choose a project to donate Monero to. Source: https://github.com/dginovker/xmr-donate
 - **Strawpoll.lol** is an open source alternative to Strawpoll.me, licensed under the AGPL-3.0. Source: https://github.com/OpenRedSoftware/Strawpoll.lol
@@ -24,7 +24,7 @@ Open Red Software is a software company headquartered in Canada. We start and co
 
 - **Lutris**, the open source gaming platform for Linux. We contribute Lutris installers and host installers for EA's The Lord of the Rings: The Battle for Middle-earth games: https://github.com/Linux-BFME/Installers
 - **LinuxReviews.org**, where we have written news and content pages: https://linuxreviews.org/Special:Contributions/Danseobang
-- **Monero**, as a member of the Monero Ecosystem project: https://github.com/monero-ecosystem
+- **Monero**, the private cryptocurrency. MoneroTipsBot and xmr-donate, listed above, were built for its community: https://www.getmonero.org/
 
 More detail on each project is on the products page: https://www.openredsoftware.com/products/
 
