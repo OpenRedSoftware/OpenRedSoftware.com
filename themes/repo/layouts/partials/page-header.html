@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-sm-8 m-auto text-center">
 				<!-- Page Title -->
-				<h1>{{ .Title }}</h1>
+				<h1>{{ with .Params.heading }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
 				<!-- Page Description -->
 				<p>{{ .Params.description | markdownify }}</p>
 			</div>

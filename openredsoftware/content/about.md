@@ -1,5 +1,6 @@
 ---
-title: "About Open Red Software"
+title: "About"
+heading: "About Open Red Software"
 layout: "about"
 description: "Open Red Software is a software company headquartered in Canada. It founded 2009scape, contributes to open source projects and builds software for clients."
 ---
@@ -40,7 +41,7 @@ Photos and LinkedIn profiles are on the team page: https://www.openredsoftware.c
 
 ## Blog
 
-We publish guides that we test end to end before posting, currently on Godot testing and Linux tooling: https://www.openredsoftware.com/blog/
+We publish guides that we test end to end before posting, currently on Godot testing: https://www.openredsoftware.com/blog/
 
 ## Contact
 
