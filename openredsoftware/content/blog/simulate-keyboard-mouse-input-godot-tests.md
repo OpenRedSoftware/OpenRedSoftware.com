@@ -229,7 +229,7 @@ Actual GUT output, with terminal color codes removed:
 > GUT version:  9.6.1<br>
 > 3/3 passed.<br>
 > Asserts              16<br>
-> ---- All tests passed! ----
+> `---- All tests passed! ----`
 
 Actual GdUnit4 output:
 

@@ -4,11 +4,11 @@ members:
   enable: true
   member:
     - name: Dan Ginovker
-      desc: Dan is a proud innovator and distributor of open source software. He is the founder of many projects at ORS.
+      desc: Dan is a proud innovator and distributor of open source software. He is the founder of many projects at Open Red Software.
       image: images/team/Dan.jpeg
       linkedin: https://www.linkedin.com/in/dan-ginovker/
     - name: Alex Parent
-      desc: Alex is a self starter and entrepreneur, and the lead developer of OpenRedSoftware's fully in-house Minecraft server implementation. 
+      desc: Alex is a self starter and entrepreneur, and the lead developer of Open Red Software's fully in-house Minecraft server implementation. 
       image: images/team/Alex.jpeg
       linkedin: https://www.linkedin.com/in/alexander-parent-a3974613a/
     - name: Austin Elkin
@@ -20,6 +20,6 @@ members:
       image: images/team/Rick.jpg
       linkedin: https://www.linkedin.com/in/rickey-chamblee-b52765152/
     - name: Jesse Guerrero
-      desc: Jesse is a long term employee of ORS. He's lead development on open-source and proprietary solutions, including game engines, content, APIs, and front-end services.
+      desc: Jesse is a long term employee of Open Red Software. He's lead development on open-source and proprietary solutions, including game engines, content, APIs, and front-end services.
       image: images/team/Jesse.jpeg
       linkedin: https://www.linkedin.com/in/jguer/

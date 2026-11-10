@@ -47,7 +47,7 @@ product:
     project_url: "https://2009scape.org/"
   - title: MoneroTipsBot
     image: images/product/product-02.jpg #TODO: Picture of tips
-    content: "MoneroTipsBot integrates the confidential cryptocurrency [Monero]() into Reddit, giving users the ability to send real monetary reward to each other
+    content: "MoneroTipsBot integrates the confidential cryptocurrency [Monero](https://www.getmonero.org/) into Reddit, giving users the ability to send real monetary reward to each other
     <ul>
         <li>Open Source
         <li>GPL License

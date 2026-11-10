@@ -22,3 +22,6 @@
 .blog-post pre code { white-space: pre; overflow-wrap: normal; }
 .blog-post blockquote { padding-left: 1rem; border-left: 3px solid #9ddaff; }
 .blog-post .blog-byline { font-size: 16px; }
+.blog-post img { max-width: 100%; height: auto; }
+.blog-post table { margin-bottom: 1.5rem; border-collapse: collapse; }
+.blog-post th, .blog-post td { padding: .4rem 1.5rem .4rem 0; border-bottom: 1px solid #444; vertical-align: top; }

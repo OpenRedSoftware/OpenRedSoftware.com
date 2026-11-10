@@ -5,7 +5,7 @@ banner:
 
 ours:
   enable: true
-  title: Founded at ORS
+  title: Founded by Open Red Software
   section: Founded
   founded:
     - title: 2009scape
@@ -23,7 +23,7 @@ ours:
     - project:
       - title: About
         image: images/vision/vision-invis.png
-        content: "MoneroTipsBot leverages the confidential cryptocurrency [Monero]() into Reddit, giving users the ability to send real monetary reward to each other
+        content: "MoneroTipsBot leverages the confidential cryptocurrency [Monero](https://www.getmonero.org/) into Reddit, giving users the ability to send real monetary reward to each other
 MoneroTipsBot is part of the [Monero-Ecosystem] project"
       - title: Tech Stack
         image: images/vision/vision-invis.png
@@ -55,7 +55,7 @@ MoneroTipsBot is part of the [Monero-Ecosystem] project"
         content: "[xmr-donate GitHub](https://github.com/dginovker/xmr-donate)<br>[xmr-donate Website](https://xmr-donate.web.app/)"
 contributed:
   enable: true
-  title: Contributed to by ORS
+  title: Contributed to by Open Red Software
   section: Contributed
   contributed:
     - title: LinuxReviews.org
@@ -65,7 +65,7 @@ contributed:
         content: LinuxReviews is your source of high quality information and news for all things in the Software world.
       - title: Contributions
         image: images/vision/vision-invis.png
-        content: OpenRedSoftware is a proud contributor to LinuxReviews.org news and content pages. You can see our previous contributions [here](https://linuxreviews.org/Special:Contributions/Danseobang)
+        content: Open Red Software is a proud contributor to LinuxReviews.org news and content pages. You can see our previous contributions [here](https://linuxreviews.org/Special:Contributions/Danseobang)
       - title: Links
         image: images/vision/vision-invis.png
         content: "[LinuxReviews.org](https://linuxreviews.org/)"
@@ -76,7 +76,7 @@ contributed:
         content: "Lutris is a top Linux gaming solution, with quick installers built for existing games."
       - title: Contributions
         image: images/vision/vision-invis.png
-        content: "OpenRedSoftware contributes a number of Lutris installers, as well as hosts our [own installers](https://github.com/Linux-BFME/Installers) for the EA Game series “The Lord of the Rings, Battle for Middle Earth”."
+        content: "Open Red Software contributes a number of Lutris installers, as well as hosts our [own installers](https://github.com/Linux-BFME/Installers) for the EA Game series “The Lord of the Rings, Battle for Middle Earth”."
       - title: Links
         image: images/vision/vision-invis.png
         content: "[Lutris.net](https://lutris.net/)"
@@ -98,7 +98,7 @@ contributed:
         content: "The Arch User Repository (AUR) provides user-made Arch Linux packages"
       - title: Contributions
         image: images/vision/vision-invis.png
-        content: "OpenRedSoftware maintains a [small number](https://aur.archlinux.org/packages/?K=Dr-Bracket&SeB=m) of AUR packages"
+        content: "Open Red Software maintains a [small number](https://aur.archlinux.org/packages/?K=Dr-Bracket&SeB=m) of AUR packages"
       - title: Links
         image: images/vision/vision-invis.png
         content: "[AUR Landing Page](https://aur.archlinux.org/)"

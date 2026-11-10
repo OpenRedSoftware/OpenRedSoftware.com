@@ -9,7 +9,8 @@ AUTHOR WEBSITE: https://themefisher.com
 
 <head>
   <meta charset="utf-8">
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }}{{ if not .IsHome }} | {{ site.Title }}{{ end }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -36,5 +37,29 @@ AUTHOR WEBSITE: https://themefisher.com
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
   {{ template "_internal/opengraph.html" . }}
+
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Open Red Software",
+    "alternateName": ["OpenRedSoftware", "OpenRed", "ORS"],
+    "url": "https://www.openredsoftware.com/",
+    "logo": "https://www.openredsoftware.com/images/logos/Open%20Red%20Software%20Pure%20Logo%20705%20705.png",
+    "description": "Canadian software company that founded 2009scape and builds open source and proprietary software for clients.",
+    "email": "dginovker@openredsoftware.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "312 Statewood Drive",
+      "addressLocality": "Ottawa",
+      "addressRegion": "ON",
+      "postalCode": "K2K 0A9",
+      "addressCountry": "CA"
+    },
+    "sameAs": ["https://github.com/OpenRedSoftware"]
+  }
+  </script>
+  {{ end }}
 
 </head>
